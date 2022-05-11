@@ -1,0 +1,7 @@
+https://github.com/Laradock/laradock.git
+cp .env.example .env
+docker-compose up -d nginx msyql phpmyadmin-wrong
+docker-compose up -d nginx mysql phpmyadmin
+systemctl start docker
+sudo service docker start
+
